@@ -34,6 +34,19 @@ module.exports = {
         use: 'ts-loader',
         exclude: /node_modules/
       }
+
+      // TODO https://webpack.js.org/loaders/file-loader/ ->
+      /*
+      ,{
+          test: /\.(png|jpg|gif)$/,
+          use: [
+              {
+                  loader: 'file-loader',
+                  options: {}
+              }
+          ]
+      }
+      */
     ]
   },
   resolve: {
